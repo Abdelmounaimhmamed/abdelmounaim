@@ -3,54 +3,54 @@
 import Image from "next/image";
 import { Tabs } from "../ui/tabs";
 
-export function Projects() {
+export function Techs() {
   const tabs = [
     {
-      title: "Product",
-      value: "product",
+      title: "FrontEnd",
+      value: "FrontEnd",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Product Tab</p>
+          <p>Technologies</p>
           <DummyContent />
         </div>
       ),
     },
     {
-      title: "Services",
-      value: "services",
+      title: "Backend",
+      value: "Backend",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Services tab</p>
+          <p>Technologies</p>
           <DummyContent />
         </div>
       ),
     },
     {
-      title: "Playground",
-      value: "playground",
+      title: "Devops",
+      value: "Devops",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Playground tab</p>
+          <p>Devops & cloud</p>
           <DummyContent />
         </div>
       ),
     },
     {
-      title: "Content",
-      value: "content",
+      title: "Data",
+      value: "Data",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Content tab</p>
+          <p>Data science</p>
           <DummyContent />
         </div>
       ),
     },
     {
-      title: "Random",
-      value: "random",
+      title: "Others",
+      value: "Others",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Random tab</p>
+          <p>Others</p>
           <DummyContent />
         </div>
       ),
@@ -59,7 +59,7 @@ export function Projects() {
 
   return (
     <div className="h-[25rem] md:h-[45rem]  [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full text-black  items-start justify-start my-40">
-        <h1 className="text-6xl font-bold w-full text-center my-10 text-white">Projects</h1>
+        <h1 className="text-6xl font-bold w-full text-center my-10 text-white">Technologies</h1>
       <Tabs tabs={tabs} />
     </div>
   );
@@ -67,12 +67,8 @@ export function Projects() {
 
 const DummyContent = () => {
   return (
-    <img
-      src="https://develus.vercel.app/dataverse.png"
-      alt="dummy image"
-      width="1000"
-      height="1000"
-      className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
-    />
+    <div className="w-full flex flex-row justify-center items-center">
+        <img src="https://develus.vercel.app/next.svg" alt="" className="w-20 h-20" />
+    </div>
   );
 };

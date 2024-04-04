@@ -2,25 +2,36 @@
 import React from "react";
 import { PinContainer } from "../components/ui/3d-pin";
 import { GlobeDemo } from "@/components/byMe/DevelusConcept";
-import { Projects } from "@/components/byMe/projects";
+import  Projects  from "@/components/byMe/Projects";
 import { NavbarDemo } from "@/components/byMe/NavBar";
 import { SignupFormDemo } from "@/components/byMe/Contact";
 import { GoogleGeminiEffectDemo } from "@/components/byMe/Benefits";
 import { HeroParallax } from "@/components/ui/hero-parallax";
 import { HeroParallaxDemo } from "@/components/byMe/Hero";
+import { WavyBackgroundDemo } from "@/components/byMe/Wavywavy";
+import { GlowingStarsBackgroundCardPreview } from "@/components/byMe/Cards";
+import Services from "@/components/byMe/Services";
+import GlowingCard from "@/components/byMe/GlowingCard";
+import { Techs } from "@/components/byMe/Techs";
 
 
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 ">
-      <HeroParallaxDemo />
-      <GlobeDemo />
-      <Projects />
-
       {/* <NavbarDemo />
+      <HeroParallaxDemo />
+      <GlobeDemo /> */}
+      {/* <Projects />  */}
+
+      {/* 
       <GoogleGeminiEffectDemo />
       <SignupFormDemo /> */}
+      {/* <Projects /> */}
+      {/* <WavyBackgroundDemo /> */}
+      {/* <Services />
+     <GlowingCard /> */}
+     <Techs />
 
     </main>
   );

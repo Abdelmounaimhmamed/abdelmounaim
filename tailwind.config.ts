@@ -26,9 +26,9 @@ const config: Config = {
       },
     },
   },
-  plugins: [addVariablesForColors],
+  plugins: [
+    addVariablesForColors]
 };
-
 
 
 function addVariablesForColors({ addBase, theme }: any) {
@@ -41,6 +41,5 @@ function addVariablesForColors({ addBase, theme }: any) {
     ":root": newVars,
   });
 }
-
 
 export default config;

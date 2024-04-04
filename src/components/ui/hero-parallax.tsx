@@ -10,7 +10,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { TypewriterEffectSmooth } from "../ui/typewriter-effect";
-
+ 
 
 export const HeroParallax = ({
   products,
@@ -112,6 +112,7 @@ export const Header = () => {
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
         Software and ai Engineer 
+        
       </p>
 
     </div>
