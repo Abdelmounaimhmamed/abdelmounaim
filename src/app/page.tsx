@@ -22,16 +22,13 @@ export default function Home() {
       <NavbarDemo />
       <HeroParallaxDemo />
       <GlobeDemo />
-      {/* <Projects />  */}
-
-      {/* 
-      <GoogleGeminiEffectDemo />
-      <SignupFormDemo /> */}
+      
+    
       <Projects />
-      {/* <WavyBackgroundDemo /> */}
       <Services />
-     <GlowingCard />
+     <GlowingCard /> 
      <Techs />
+     <SignupFormDemo /> 
 
     </main>
   );

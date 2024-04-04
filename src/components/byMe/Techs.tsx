@@ -9,9 +9,9 @@ export function Techs() {
       title: "FrontEnd",
       value: "FrontEnd",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-[300px] rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-blue-700 to-violet-900">
           <p>Technologies</p>
-          <DummyContent />
+          <Frontend />
         </div>
       ),
     },
@@ -19,9 +19,9 @@ export function Techs() {
       title: "Backend",
       value: "Backend",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-[300px] rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-blue-700 to-violet-900">
           <p>Technologies</p>
-          <DummyContent />
+          <Backend />
         </div>
       ),
     },
@@ -29,9 +29,9 @@ export function Techs() {
       title: "Devops",
       value: "Devops",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-[300px] rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-blue-700 to-violet-900">
           <p>Devops & cloud</p>
-          <DummyContent />
+          <Devops />
         </div>
       ),
     },
@@ -39,9 +39,9 @@ export function Techs() {
       title: "Data",
       value: "Data",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-[300px] rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-blue-700 to-violet-900">
           <p>Data science</p>
-          <DummyContent />
+          <Data />
         </div>
       ),
     },
@@ -49,9 +49,9 @@ export function Techs() {
       title: "Others",
       value: "Others",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-[300px] rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-blue-700 to-violet-900">
           <p>Others</p>
-          <DummyContent />
+          <Others />
         </div>
       ),
     },
@@ -65,10 +65,68 @@ export function Techs() {
   );
 }
 
-const DummyContent = () => {
+const Frontend = () => {
   return (
     <div className="w-full flex flex-row justify-center items-center">
-        <img src="https://develus.vercel.app/next.svg" alt="" className="w-20 h-20" />
+        <img src="https://develus.vercel.app/next.svg" alt="" className="w-20  m-6 h-20" />
+        <img src="https://develus.vercel.app/react.svg" alt="" className="w-20 m-6 h-20" />
+        <img src="https://develus.vercel.app/redux.svg" alt="" className="w-20 m-6 h-20" />
+        <img src="https://develus.vercel.app/tailwind.svg" alt="" className="w-20 m-6 h-20" />
+        <img src="https://develus.vercel.app/bun.svg" alt="" className="w-20 m-6 h-20" />
     </div>
   );
 };
+
+const Backend = () => {
+  return (
+    <div className="w-full flex flex-row justify-center items-center flex-wrap">
+        <img src="https://develus.vercel.app/nest.svg" alt="" className="w-20  m-8 h-20" />
+        <img src="https://develus.vercel.app/spring.svg" alt="" className="w-20 m-8 h-20" />
+        <img src="https://develus.vercel.app/laravel.svg" alt="" className="w-20 m-8 h-20" />
+        <img src="https://develus.vercel.app/bun.svg" alt="" className="w-20 m-8 h-20" />
+        <img src="https://develus.vercel.app/fast.svg" alt="" className="w-20 m-8 h-20" />
+        <img src="https://develus.vercel.app/mongo.svg" alt="" className="w-20 m-8 h-20" />
+        <img src="https://develus.vercel.app/msqyl.svg" alt="" className="w-20 m-8 h-20" />
+        <img src="https://develus.vercel.app/postgre.svg" alt="" className="w-20 m-8 h-20" />
+    </div>
+  );
+};
+
+
+const Data = () => {
+  return (
+    <div className="w-full flex flex-row justify-center items-center">
+        <img src="https://develus.vercel.app/next.svg" alt="" className="w-20  m-6 h-20" />
+        <img src="https://develus.vercel.app/react.svg" alt="" className="w-20 m-6 h-20" />
+        <img src="https://develus.vercel.app/redux.svg" alt="" className="w-20 m-6 h-20" />
+        <img src="https://develus.vercel.app/tailwind.svg" alt="" className="w-20 m-6 h-20" />
+        <img src="https://develus.vercel.app/bun.svg" alt="" className="w-20 m-6 h-20" />
+    </div>
+  );
+};
+const Devops = () => {
+  return (
+    <div className="w-full flex flex-row justify-center items-center">
+        <img src="https://develus.vercel.app/docker.svg" alt="" className="w-20  m-6 h-20" />
+        <img src="https://develus.vercel.app/k8S.svg" alt="" className="w-20 m-6 h-20" />
+        <img src="https://develus.vercel.app/ansible.svg" alt="" className="w-20 m-6 h-20" />
+        <img src="https://develus.vercel.app/jenkins.svg" alt="" className="w-20 m-6 h-20" />
+        <img src="https://develus.vercel.app/aws.svg" alt="" className="w-20 m-6 h-20" />
+        <img src="https://develus.vercel.app/google.svg" alt="" className="w-20 m-6 h-20" />
+    </div>
+  );
+};
+const Others = () => {
+  return (
+    <div className="w-full flex flex-row justify-center items-center">
+        <img src="https://develus.vercel.app/next.svg" alt="" className="w-20  m-6 h-20" />
+        <img src="https://develus.vercel.app/react.svg" alt="" className="w-20 m-6 h-20" />
+        <img src="https://develus.vercel.app/redux.svg" alt="" className="w-20 m-6 h-20" />
+        <img src="https://develus.vercel.app/tailwind.svg" alt="" className="w-20 m-6 h-20" />
+        <img src="https://develus.vercel.app/bun.svg" alt="" className="w-20 m-6 h-20" />
+    </div>
+  );
+};
+
+
+

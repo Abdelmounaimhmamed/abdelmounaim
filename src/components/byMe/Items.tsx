@@ -20,7 +20,7 @@ export function AnimatedPinDemo({title , projectName , desc , imgUri} : any) {
             </span>
           </div>
           {/* <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" /> */}
-          <img src={imgUri} className="flex flex-1 w-full object-cover p-1 rounded-lg mt-4  bg-gradient-to-br from-blue-200  to-blue-500" alt="image" />
+          <img src={imgUri} className="flex flex-1 w-full object-cover  rounded-lg mt-4  bg-gradient-to-br from-blue-200  to-blue-500" alt="image" />
       {/* <HoverBorderGradientDemo /> */}
         </div>
       </PinContainer>
