@@ -19,18 +19,18 @@ import { Techs } from "@/components/byMe/Techs";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 ">
-      {/* <NavbarDemo />
+      <NavbarDemo />
       <HeroParallaxDemo />
-      <GlobeDemo /> */}
+      <GlobeDemo />
       {/* <Projects />  */}
 
       {/* 
       <GoogleGeminiEffectDemo />
       <SignupFormDemo /> */}
-      {/* <Projects /> */}
+      <Projects />
       {/* <WavyBackgroundDemo /> */}
-      {/* <Services />
-     <GlowingCard /> */}
+      <Services />
+     <GlowingCard />
      <Techs />
 
     </main>
