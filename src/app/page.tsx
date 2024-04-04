@@ -13,6 +13,7 @@ import { GlowingStarsBackgroundCardPreview } from "@/components/byMe/Cards";
 import Services from "@/components/byMe/Services";
 import GlowingCard from "@/components/byMe/GlowingCard";
 import { Techs } from "@/components/byMe/Techs";
+import AoutMe from "@/components/byMe/AoutMe";
 
 
 
@@ -21,6 +22,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24 ">
       <NavbarDemo />
       <HeroParallaxDemo />
+      <AoutMe />
       <GlobeDemo />
       
     
