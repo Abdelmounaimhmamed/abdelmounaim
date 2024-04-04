@@ -35,6 +35,9 @@ function Navbar({ className }: { className?: string }) {
         <MenuItem setActive={setActive} active={active} item="Technologies">
          
         </MenuItem>
+        <MenuItem setActive={setActive} active={active} item="Certifications">
+         
+         </MenuItem>
        
         <MenuItem setActive={setActive} active={active} item="Projects">
           

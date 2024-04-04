@@ -14,6 +14,7 @@ import Services from "@/components/byMe/Services";
 import GlowingCard from "@/components/byMe/GlowingCard";
 import { Techs } from "@/components/byMe/Techs";
 import AoutMe from "@/components/byMe/AoutMe";
+import { InfiniteMovingCardsDemo } from "@/components/byMe/Education";
 
 
 
@@ -30,6 +31,7 @@ export default function Home() {
       <Services />
      <GlowingCard /> 
      <Techs />
+      <InfiniteMovingCardsDemo />
      <SignupFormDemo /> 
 
     </main>
