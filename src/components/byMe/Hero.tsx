@@ -7,33 +7,33 @@ export function HeroParallaxDemo() {
 }
 export const products = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
+    title: "",
+    link: "",
     thumbnail:
       "https://develus.vercel.app/dataverse.png",
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
+    title: "",
+    link: "",
     thumbnail:
       "https://develus.vercel.app/inscri.png",
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
+    title: "",
+    link: "",
     thumbnail:
       "https://develus.vercel.app/ensak2.png",
   },
 
   {
-    title: "Editorially",
-    link: "https://editorially.org",
+    title: "",
+    link: "",
     thumbnail:
       "https://develus.vercel.app/icmds.png",
   },
   {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
+    title: " AI",
+    link: "",
     thumbnail:
       "https://develus.vercel.app/Innov.png",
   },
